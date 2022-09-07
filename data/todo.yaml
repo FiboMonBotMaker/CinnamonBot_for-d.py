@@ -1,0 +1,91 @@
+﻿- content: Qiitaに書きたい記事かく
+  name: nikawamikan
+  time: 08月04日 12:52
+- content: さらにタスク増やすようで申し訳ないんですが、20問連続出題機能欲しいです(できれば終わったときに誰が何問正解したかの集計も.....)
+  name: ふぃぼなっち。
+  time: 08月04日 21:24
+- content: 麻雀おぼえる
+  name: CinnamonSea2073.zip
+  time: 08月05日 01:27
+- content: enbedを各Cogで同様のものを使用しているのでlibに汎用なヤツ定義する
+  name: nikawamikan
+  time: 08月05日 04:38
+- content: n連ガチャの表示部分をSortして重複したものに関しては×2などの表現に変更する
+  name: nikawamikan
+  time: 08月05日 04:42
+- content: 所持金のランキング的なのほしいよね
+  name: CinnamonSea2073.zip
+  time: 08月05日 08:12
+- content: 「todoで誰が実行するかわかるようにする」なんですけど、todoでのデータの仕様わけわかめなので誰かお願いできませんか...？/todo do
+    番号 で自分がやるって宣言したり、宣言したのをやっぱやめたりできると助かります。
+  name: CinnamonSea2073.zip
+  time: 08月05日 10:42
+- content: todoチェックしてから消すまでの間に誰かがtodo消してたら番号リセットされて間違えて違うもの消してしまいそうなのどうにかできんそす？
+  name: CinnamonSea2073.zip
+  time: 08月05日 11:01
+- content: statとか登録されてる問題数とか出せるやつ
+  name: CinnamonSea2073.zip
+  time: 08月05日 13:02
+- content: 競馬(マルチプレイ)
+  name: FirestormMino
+  time: 08月05日 20:43
+- content: しなもんさんの容姿が全く想像できねぇwと言われてしまったので、CGで作ってみようの会ひらく
+  name: CinnamonSea2073.zip
+  time: 08月05日 21:29
+- content: しなbotのお金の使い道増やす
+  name: CinnamonSea2073.zip
+  time: 08月05日 22:33
+- content: Ubuntuでマイクラ鯖動かしたい（）
+  name: oseyuki_jp🌽
+  time: 08月06日 00:30
+- content: todoにコメント的な機能つけたい。例えば、〇番に対して、「それ～じゃない？」みたいになんか言えるやつ
+  name: CinnamonSea2073.zip
+  time: 08月06日 00:53
+- content: Money系のクラスを別途管理したい
+  name: nikawamikan
+  time: 08月06日 10:41
+- content: 謎の金銭追加遅延の調査
+  name: CinnamonSea2073.zip
+  time: 08月06日 11:04
+- content: マルチプレイできるpy作ったけど初期化してくれないのでだれか原因解明お願いします...gitに載ってます。完成したらライブラリ化していろんなゲームをマルチにできると思うんで...
+  name: CinnamonSea2073.zip
+  time: 08月06日 12:19
+- content: れもんさん用にスラッシュコマンドのQiitaでも書こう
+  name: CinnamonSea2073.zip
+  time: 08月08日 11:38
+- content: APIとPython連携させるアレ作る
+  name: nikawamikan
+  time: 08月08日 12:50
+- content: while構文ってなんぞやなので調べてみる
+  name: CinnamonSea2073.zip
+  time: 08月09日 14:05
+- content: コマンドパネル誰か使い方読んでおいてください（）https://rockyhawk99.gitbook.io/rockyhawk-wiki/
+  name: nikawamikan
+  time: 08月11日 12:11
+- content: 帰ったらしなもんとふぃぼなっちをランダムな割合で混ぜるコマンドつくろ
+  name: CinnamonSea2073.zip
+  time: 08月13日 12:53
+- content: 名前ランダム生成するコマンド作る
+  name: CinnamonSea2073.zip
+  time: 08月13日 12:56
+- content: 村人の施設いい感じにしてほしい
+  name: nikawamikan
+  time: 08月17日 18:55
+- content: 原神のhayaoshi
+  name: CinnamonSea2073.zip
+  time: 08月21日 23:11
+- content: LanaNealsenの管理対象ロールを自動で指定チャネルへ列挙するように修正する
+  name: nikawamikan
+  time: 08月24日 18:15
+- content: 早押しクイズ系の実装をリファクタリングしたいのでたぶんする
+  name: nikawamikan
+  time: 08月24日 18:18
+- content: LanaNealsenに現時点で存在するRoleを管理対象に追加や、解除を行う機能を追加する
+  name: nikawamikan
+  time: 08月24日 18:22
+- content: LanaNealsenのドキュメントを作成してリンクを貼り付ける
+  name: nikawamikan
+  time: 08月24日 18:23
+- content: roleが25個超えたときの挙動を考える
+  name: nikawamikan
+  time: 08月24日 21:05
