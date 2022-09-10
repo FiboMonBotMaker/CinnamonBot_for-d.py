@@ -1,32 +1,41 @@
-import json
-import yaml
+from discord.ext import commands
+import discord
+from dotenv import load_dotenv
+import traceback
 
-# yamlを読み込んでlistで返却します
-def read_json() -> list[str]:
-    with open('characters.json', 'r',encoding="utf-8") as f:
-        return json.load(f)
+from .env.keys.env import TOKEN
 
-# ymalに一次配列のlistを上書きします
-def write_json(words: list[str]):
-    with open('genshin_avater.json', 'w',encoding="utf-8") as f:
-        json.dump(words, f,)
+intents = discord.Intents.all()
 
-# ymalに一次配列のlistを上書きします
-def write_yaml(words: list[str]):
-    with open('characters.yaml', 'w',encoding="utf-8_sig") as f:
-        yaml.dump(words,f,default_flow_style=False,allow_unicode=True)
+class MyBot(commands.Bot):
+    def __init__(self):
+        super().__init__(command_prefix='!', intents=intents)
+        self.exts = [
+            'cogs.others',
+            # 'cogs.itudoko',
+            # 'cogs.point',
+            # 'cogs.hogestory',
+            # 'cogs.superchat',
+            # 'cogs.help',
+            'cogs.todo',
+            'cogs.shogi',
+            # 'cogs.nb',
+            # 'cogs.keiba',
+            # 'cogs.stat',
+            # 'cogs.timer',
+            # 'cogs.talk',
+            # 'cogs.genshin',
+            # 'cogs.test'
+        ]
 
-l = dict()
-n = dict()
-d = read_json()
+    async def on_ready(self):
+        print(f"{self.user} On ready.")
+        for ext in self.exts:
+            await self.load_extension(ext)
+        commands = await bot.tree.sync()
+        command_log = ",".join(command.name for command in commands)
+        print(command_log)
 
-for n in d:
-    print(n)
-    try:
-        l[n] = {"NameId": str(d[n]["NameTextMapHash"]),"sideIconName": d[n]["SideIconName"],"Element": d[n]["Element"]}
-    except:
-        continue
-
-write_yaml(l)
-
-
+if __name__ == "__main__":
+    bot = MyBot()
+    bot.run(TOKEN)
